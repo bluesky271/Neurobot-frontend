@@ -36,7 +36,7 @@
           </label>
         </div>
         <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button><br>
-        <a href="../../website/html/forgotPassword.html">Forgot password?</a>
+        <a href="#forgotPasswordPopup">Forgot password?</a>
       </form>
 
     </div> <!-- /container -->
@@ -70,6 +70,18 @@
 
     </div> <!-- /container -->
 
+    <div class="overlay" id="forgotPasswordPopup">
+        <div class="popup">
+            <form class="form-signin">
+                <h2 class="form-signin-heading">Need to reset your password?</h2>
+                <a class="close" href="#">X</a>
+                <h3 class="form-signin-subheading">Enter your email below to reset password</h3>
+                <label for="inputEmail" class="sr-only">Email address</label>
+                <input type="email" id="forgotPasswordEmail" class="form-control" placeholder="Email address" required autofocus><br>
+                <button class="btn btn-lg btn-primary btn-block" type="submit">Reset Password</button>
+            </form>
+        </div>
+    </div> <!-- /container -->
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
