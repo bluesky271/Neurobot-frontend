@@ -20,13 +20,6 @@ body {
   width: 49%;
 }
 
-@media screen and (max-width: 1260px) {
-#sign_in_left,
-#registration_right {
-    width: 100%;
-    }
-}
-
 .form-signin {
   max-width: 430px;
   padding: 15px;
@@ -59,10 +52,6 @@ body {
   z-index: 2;
 }
 
-.float-right {
-  float: right;
-}
-
 .form-signin-subheading {
   font-size: 15px;
   margin-bottom: 10px;
@@ -84,4 +73,11 @@ body {
 .btn:hover {
   background-color: white;
   color: #111;
+}
+
+@media screen and (max-width: 1260px) {
+#sign_in_left,
+#registration_right {
+    width: 100%;
+    }
 }
