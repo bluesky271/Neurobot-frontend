@@ -12,12 +12,19 @@ body {
 
 #sign_in_left {
   float: left;
-  width: 49%
+  width: 49%;
 }
 
 #registration_right {
   float: right;
-  width: 49%
+  width: 49%;
+}
+
+@media screen and (max-width: 1260px) {
+#sign_in_left,
+#registration_right {
+    width: 100%;
+    }
 }
 
 .form-signin {
