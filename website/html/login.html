@@ -21,8 +21,8 @@
 
   <body>
 
-    <div class="container" id="sign_in_left">
-
+    <div class="container">
+      <div class="col-md-6">
       <form class="form-signin">
         <h2 class="form-signin-heading">Please sign in</h2>
         <h3 class="form-signin-subheading">Enter your log in details below</h3>
@@ -38,10 +38,9 @@
         <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button><br>
         <a href="#forgotPasswordPopup">Forgot password?</a>
       </form>
+      </div>
 
-    </div> <!-- /container -->
-
-    <div class="container" id="registration_right">
+      <div class="col-md-6">
 
       <form class="form-signin">
         <h2 class="form-signin-heading">Enter your detail to register</h2>
@@ -67,14 +66,14 @@
         <input type="password" id="confirmPassword" class="form-control" placeholder="Confirm Password" required>
         <button class="btn btn-lg btn-primary btn-block" type="submit">Register!</button>
       </form>
-
+      </div>
     </div> <!-- /container -->
 
     <div class="overlay" id="forgotPasswordPopup">
         <div class="popup">
             <form class="form-signin">
                 <h2 class="form-signin-heading">Need to reset your password?</h2>
-                <a class="close" href="#">X</a>
+                <a class="close" href="">X</a>
                 <h3 class="form-signin-subheading">Enter your email below to reset password</h3>
                 <label for="inputEmail" class="sr-only">Email address</label>
                 <input type="email" id="forgotPasswordEmail" class="form-control" placeholder="Email address" required autofocus><br>
